@@ -13,6 +13,9 @@ This repository contains projects that are part of the ALX System Engineering De
 2.  **[0x01-shell_permissions](./0x01-shell_permissions)**: file permissions and ownership, and symbolic links
 3.  **[0x02-shell_redirections](./0x02-shell_redirections)**: standard input/output and file redirections
 4.  **[0x03-shell_variables_expansions](./0x03-shell_variables_expansions)**: shell variables and expansions
+
+### In progress
+
 5.  **[0x04-loops_conditions_and_parsing](./0x04-loops_conditions_and_parsing)**: loops, conditionals, and text parsing
 6.  **[0x05-processes_and_signals](./0x05-processes_and_signals)**: processes, signals, and job control
 7.  **[0x06-ssh](./0x06-ssh)**: secure shell (SSH) protocol and SSH configuration
@@ -30,3 +33,4 @@ Each project directory contains a `README.md` file with detailed information abo
 ## Credits
 
 These projects were created by the ALX software engineering team.
+
