@@ -1,1 +1,18 @@
 #!/usr/bin/env bash
+#Bash script that prints "bad luck" 8 times, and "good luck" 4 times, and then "best luck" 4 times.
+
+count=0
+
+while [ $count -lt 10 ]
+do
+  if [ $count -eq 3 ]
+  then
+    echo "bad luck"
+  elif [ $count -eq 7 ]
+  then
+    echo "good luck"
+  else
+    echo "Best School"
+  fi
+  (( count++ ))
+done

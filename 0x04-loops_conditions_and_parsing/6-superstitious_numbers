@@ -1,1 +1,15 @@
 #!/usr/bin/env bash
+#Bash script that prints numbers from 1 to 20 and prints "bad luck" for the 4th loop, "good luck" for the 9th loop, and "best luck" for the 17th loop.
+
+count=1
+
+while [ $count -le 20 ]
+do
+  echo "$count"
+  case $count in
+    "4") echo "bad luck from China";;
+    "9") echo "bad luck from Japan";;
+    "17") echo "bad luck from Italy";;
+  esac
+  (( count++ ))
+done
