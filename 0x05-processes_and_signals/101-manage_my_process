@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-
-#This script manages my_process.
+# manages manage_my_process by either starting it, stopping it or restarting it.
 
 command="$1"
 
